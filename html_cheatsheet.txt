@@ -1,0 +1,14 @@
+Html Tags/Elements:
+    Pieces of content(elements) are wrapped around opening and closing html Tags
+    <p>Hi jits</p>
+    (Note: Void elements just have a single tag no closing Tags
+    you could end then with <img /> backslash at the end)
+
+Doctype:
+    Each html page starts with a doctype.
+    Purpose is to tell browser which html ver we opening
+
+Meta Charset:
+    We always have a meta tag with charset encoding o fthe webpage in the head.
+    Element: <meta charset = "UTF-8">
+
