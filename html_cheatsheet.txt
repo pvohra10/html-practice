@@ -9,6 +9,35 @@ Doctype:
     Purpose is to tell browser which html ver we opening
 
 Meta Charset:
-    We always have a meta tag with charset encoding o fthe webpage in the head.
+    We always have a meta tag with charset encoding of the webpage in the head.
     Element: <meta charset = "UTF-8">
 
+Unordered List (<ul> </ul>):
+    creates a list where order doesnt matter (bullets not like a adt)
+
+Anchor elements (<a> </a>):
+    Used to create a link in html
+    Needs a href for link to go somwhere
+    <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+
+    Note - Opening Links in new tab:
+        href specifies destination link
+        We need a target attribute to specify where linked source will be opened 
+        By default is _self, but we can specify _blank for new tab
+
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+
+        Rel describes relationship between linked document and current page
+
+        The noopener attribute ensures that a link opened in a new tab or window cannot interact with or access the original page. 
+        Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk.
+
+        noreferrer attribute ensures user privacy and security. The new page doesnt know where the user came from (hiding the referer)
+
+
+Absolute Links:
+    scheme://domain/path
+
+Relative links:
+    links to pages in our own website
+    
