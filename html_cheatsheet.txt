@@ -40,4 +40,18 @@ Absolute Links:
 
 Relative links:
     links to pages in our own website
+
+How to connect css to html:
+    <link rel="stylesheet" href="styles.css">
+Rel means relationship, tells us the relationship is stylesheet and the file is styles.css
+
+
+Containers <div> </div> kinda like flex box containers that can have more containers within.
+Specify in css if you want flex-grow flex shrink etc for containers to grow or shrink as you zoom.
+
+
+
+
+
+
     
